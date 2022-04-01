@@ -1,0 +1,40 @@
+.review-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 5%;
+    width: 571px;
+}
+.image img {
+    width: 150px;
+    height: 170px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.specification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    width: 100%;
+    text-align: right;
+    margin-left: 100%;
+    /* background-color: lightcyan; */
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#fontawesome {
+    color: goldenrod;
+    border-radius: 20px;
+    border: none;
+    width: 33px;
+    height: 33px;
+}
